@@ -11,6 +11,8 @@ int main()
 	
 	binary_tree tree;
 
+	tree.time();
+
 	while (true) {
 		choice = tree.get_menu_ops();
 		if (choice == 6) break;

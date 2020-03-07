@@ -28,6 +28,7 @@ public:
 	void delete_node(int data);
 	void replace_node(int data, int newdata);
 	void preorder_traversal(int index);
+	void time();
 
 };
 
